@@ -1,0 +1,19 @@
+inputs:
+  name:
+    description: "Person to greet"
+    default: "World"
+    required: true
+    type: string
+  city:
+    description: "Favorite city"
+    required: true
+    default: "Tupelo"
+    type: choice
+    options:
+      - New York
+      - Seattle
+      - Tupelo
+  fav-color-blue:
+    description: "Is your favorite color blue"
+    required: true
+    type: boolean
